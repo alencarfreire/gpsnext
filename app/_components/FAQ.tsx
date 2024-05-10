@@ -5,7 +5,7 @@ export default function FAQ() {
       <div className="py-10 flex flex-col justify-center items-center gap-4 max-w-[450px] lg:max-w-[600px]">
         <h3 className="text-[#F2444A] text-3xl font-extrabold px-6 mb-6 text-center">PERGUNTAS FREQUENTES</h3>
         <div className="collapse collapse-arrow">
-          <input type="radio" name="my-accordion-2" checked={true} />
+          <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title text-lg font-bold text-[#1F1818]">
             Por que contratar um Transfer de forma atencipada?
           </div>
@@ -17,7 +17,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="collapse collapse-arrow">
-          <input type="radio" name="my-accordion-2" checked={true} />
+          <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-lg font-bold text-[#1F1818]">
             Em Porto Seguro não tem Uber, 99 ou outro aplicativo de transporte?
           </div>
@@ -30,7 +30,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="collapse collapse-arrow">
-          <input type="radio" name="my-accordion-2" checked={true} />
+          <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-lg font-bold text-[#1F1818]">
             Vocês buscam no Hotel ou no Aeroporto pela madrugada?
           </div>
@@ -42,7 +42,7 @@ export default function FAQ() {
           </div>
         </div>
         <div className="collapse collapse-arrow">
-          <input type="radio" name="my-accordion-2" checked={true} />
+          <input type="radio" name="my-accordion-2" />
           <div className="collapse-title text-lg font-bold text-[#1F1818]">Como faço para contratar o Transfer?</div>
           <div className="collapse-content">
             <p className="text-[#1F1818] text-sm opacity-80">
