@@ -30,6 +30,7 @@ export default function RootLayout({
       <link rel="icon" href="favicon.png" sizes="any" />
       <title>GPS Transfer, terra um carro sua espera</title>
       <body className={inter.className}>{children} </body>
+      <GoogleTagManager gtmId="GTM-5ZL5QX3" />
     </html>
   );
 }
