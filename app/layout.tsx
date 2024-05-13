@@ -21,6 +21,7 @@ export default function RootLayout({
       <meta name="author" content="Vinícius de Alencar Freire" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="GPS Transfer, tenha um carro a sua espera." />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       <meta
         property="og:description"
         content="Transfer privativo para os principais destinos de Porto Seguro: Trancoso, Arraial d'Ajuda, Club Med, Caraíva, entre outros destinos."
